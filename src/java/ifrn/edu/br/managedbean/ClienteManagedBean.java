@@ -36,6 +36,9 @@ public class ClienteManagedBean {
     public void setClientedao(ClienteDao clientedao) {
         this.clientedao = clientedao;
     }
+    public ClienteManagedBean(){
+        this.cliente = new ClienteBean();
+    }
     public void cadastrar(){
     try{
         this.clientedao = new ClienteDao();

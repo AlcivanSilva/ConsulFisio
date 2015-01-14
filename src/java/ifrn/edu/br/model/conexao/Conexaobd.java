@@ -16,7 +16,7 @@ import java.sql.SQLException;
  */
 public class Conexaobd {
      private String driver = "org.postgresql.Driver";
-     private String url = "jdbc:postgresql://localhost/?", user = "postgres", password = "?";
+     private String url = "jdbc:postgresql://localhost/testar", user = "postgres", password = "94415944";
      public Connection getConnection() throws ClassNotFoundException{
          try{
              Class.forName(driver);
